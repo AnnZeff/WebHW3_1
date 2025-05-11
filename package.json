@@ -1,0 +1,25 @@
+{
+  "name": "jsaqa_3",
+  "version": "1.0.0",
+  "description": "jest test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "coverage": "jest --collectCoverage",
+    "eslint": "eslint"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "jsaqa"
+  ],
+  "author": "anastasiazef",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.26.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.1.0",
+    "jest": "^27.3.1"
+  }
+}
