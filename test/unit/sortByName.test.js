@@ -22,10 +22,8 @@ describe("Test suit for books names sorting", () => {
 
     expect(output).toEqual(expected);
   });
-});
 
-describe("Test suit for books names", () => {
-  it("Books names sould not be sorted", () => {
+ it("Books names sould not be sorted", () => {
     const input = [
       "Гарри Поттер",
       "Гарри Поттер"
